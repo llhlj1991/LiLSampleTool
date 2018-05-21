@@ -16,8 +16,8 @@
 		A48CE01120AD849900B57512 /* LiLSampleToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE01020AD849900B57512 /* LiLSampleToolUITests.m */; };
 		A48CE02020AD853500B57512 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE01F20AD853500B57512 /* RootViewController.m */; };
 		A48CE02320AD870C00B57512 /* LiLHeaderIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE02220AD870C00B57512 /* LiLHeaderIconViewController.m */; };
-		A48CE0EF20B2782500B57512 /* LiLShearImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE0EC20B2782400B57512 /* LiLShearImgViewController.m */; };
-		A48CE0F020B2782500B57512 /* UIImage+LiLCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE0EE20B2782500B57512 /* UIImage+LiLCrop.m */; };
+		A48CE0F720B2996500B57512 /* LiLShearImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE0F320B2996500B57512 /* LiLShearImgViewController.m */; };
+		A48CE0F820B2996500B57512 /* UIImage+LiLCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE0F620B2996500B57512 /* UIImage+LiLCrop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		A48CDFFB20AD849900B57512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A48CE00120AD849900B57512 /* LiLSampleToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiLSampleToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48CE00520AD849900B57512 /* LiLSampleToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiLSampleToolTests.m; sourceTree = "<group>"; };
-		A48CE00720AD849900B57512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48CE00720AD849900B57512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = LiLSampleToolTests/Info.plist; sourceTree = SOURCE_ROOT; };
 		A48CE00C20AD849900B57512 /* LiLSampleToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiLSampleToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48CE01020AD849900B57512 /* LiLSampleToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiLSampleToolUITests.m; sourceTree = "<group>"; };
 		A48CE01220AD849900B57512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,10 +58,10 @@
 		A48CE02220AD870C00B57512 /* LiLHeaderIconViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiLHeaderIconViewController.m; sourceTree = "<group>"; };
 		A48CE0CF20AEC84200B57512 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		A48CE0D020AEC84200B57512 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		A48CE0EB20B2782400B57512 /* LiLShearImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiLShearImgViewController.h; sourceTree = "<group>"; };
-		A48CE0EC20B2782400B57512 /* LiLShearImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiLShearImgViewController.m; sourceTree = "<group>"; };
-		A48CE0ED20B2782500B57512 /* UIImage+LiLCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LiLCrop.h"; sourceTree = "<group>"; };
-		A48CE0EE20B2782500B57512 /* UIImage+LiLCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LiLCrop.m"; sourceTree = "<group>"; };
+		A48CE0F320B2996500B57512 /* LiLShearImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiLShearImgViewController.m; sourceTree = "<group>"; };
+		A48CE0F420B2996500B57512 /* UIImage+LiLCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LiLCrop.h"; sourceTree = "<group>"; };
+		A48CE0F520B2996500B57512 /* LiLShearImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiLShearImgViewController.h; sourceTree = "<group>"; };
+		A48CE0F620B2996500B57512 /* UIImage+LiLCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LiLCrop.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +92,8 @@
 		A48CDFE020AD849800B57512 = {
 			isa = PBXGroup;
 			children = (
-				A48CE0E220B277DF00B57512 /* PracticalTools */,
 				A48CDFEB20AD849800B57512 /* LiLSampleTool */,
+				A48CE0F120B2996500B57512 /* LiLSampleTool */,
 				A48CE00420AD849900B57512 /* LiLSampleToolTests */,
 				A48CE00F20AD849900B57512 /* LiLSampleToolUITests */,
 				A48CDFEA20AD849800B57512 /* Products */,
@@ -117,6 +117,7 @@
 				A48CDFED20AD849800B57512 /* AppDelegate.m */,
 				A48CDFF220AD849800B57512 /* Main.storyboard */,
 				A48CDFF520AD849900B57512 /* Assets.xcassets */,
+				A48CE00720AD849900B57512 /* Info.plist */,
 				A48CDFF720AD849900B57512 /* LaunchScreen.storyboard */,
 				A48CDFFA20AD849900B57512 /* Info.plist */,
 				A48CDFFB20AD849900B57512 /* main.m */,
@@ -132,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				A48CE00520AD849900B57512 /* LiLSampleToolTests.m */,
-				A48CE00720AD849900B57512 /* Info.plist */,
 			);
 			path = LiLSampleToolTests;
 			sourceTree = "<group>";
@@ -146,24 +146,24 @@
 			path = LiLSampleToolUITests;
 			sourceTree = "<group>";
 		};
-		A48CE0E220B277DF00B57512 /* PracticalTools */ = {
+		A48CE0F120B2996500B57512 /* LiLSampleTool */ = {
 			isa = PBXGroup;
 			children = (
-				A48CE0EA20B277F300B57512 /* shearPicture */,
+				A48CE0F220B2996500B57512 /* shearPicture */,
 			);
-			name = PracticalTools;
-			path = ../PracticalTools;
+			name = LiLSampleTool;
+			path = ../LiLSampleTool;
 			sourceTree = "<group>";
 		};
-		A48CE0EA20B277F300B57512 /* shearPicture */ = {
+		A48CE0F220B2996500B57512 /* shearPicture */ = {
 			isa = PBXGroup;
 			children = (
-				A48CE0EB20B2782400B57512 /* LiLShearImgViewController.h */,
-				A48CE0EC20B2782400B57512 /* LiLShearImgViewController.m */,
-				A48CE0ED20B2782500B57512 /* UIImage+LiLCrop.h */,
-				A48CE0EE20B2782500B57512 /* UIImage+LiLCrop.m */,
+				A48CE0F320B2996500B57512 /* LiLShearImgViewController.m */,
+				A48CE0F420B2996500B57512 /* UIImage+LiLCrop.h */,
+				A48CE0F520B2996500B57512 /* LiLShearImgViewController.h */,
+				A48CE0F620B2996500B57512 /* UIImage+LiLCrop.m */,
 			);
-			name = shearPicture;
+			path = shearPicture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +299,8 @@
 				A48CDFFC20AD849900B57512 /* main.m in Sources */,
 				A48CE02020AD853500B57512 /* RootViewController.m in Sources */,
 				A48CE02320AD870C00B57512 /* LiLHeaderIconViewController.m in Sources */,
-				A48CE0F020B2782500B57512 /* UIImage+LiLCrop.m in Sources */,
-				A48CE0EF20B2782500B57512 /* LiLShearImgViewController.m in Sources */,
+				A48CE0F820B2996500B57512 /* UIImage+LiLCrop.m in Sources */,
+				A48CE0F720B2996500B57512 /* LiLShearImgViewController.m in Sources */,
 				A48CDFEE20AD849800B57512 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
