@@ -25,7 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   DESC
+TODO: Add long description of the pod here.
+DESC
 
   s.homepage     = "https://github.com/llhlj1991/LiLSampleTool"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -38,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -56,7 +57,7 @@ Pod::Spec.new do |s|
   # Or just: s.author    = "lilei"
   # s.authors            = { "lilei" => "" }
   # s.social_media_url   = "http://twitter.com/lilei"
-
+  s.ios.deployment_target = '8.0'
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If this Pod runs only on iOS or OS X, then specify the platform and
@@ -131,6 +132,7 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+   s.frameworks = 'UIKit'
   # s.dependency "JSONKit", "~> 1.4"
 
 end

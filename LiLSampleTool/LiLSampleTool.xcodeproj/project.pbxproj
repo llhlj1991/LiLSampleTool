@@ -16,8 +16,8 @@
 		A48CE01120AD849900B57512 /* LiLSampleToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE01020AD849900B57512 /* LiLSampleToolUITests.m */; };
 		A48CE02020AD853500B57512 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE01F20AD853500B57512 /* RootViewController.m */; };
 		A48CE02320AD870C00B57512 /* LiLHeaderIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE02220AD870C00B57512 /* LiLHeaderIconViewController.m */; };
-		A48CE02820AD8A7000B57512 /* LiLShearImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE02720AD8A7000B57512 /* LiLShearImgViewController.m */; };
-		A48CE0D320AECF8200B57512 /* UIImage+LiLCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE0D220AECF8200B57512 /* UIImage+LiLCrop.m */; };
+		A48CE0E020B2758500B57512 /* LiLShearImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE0DD20B2758500B57512 /* LiLShearImgViewController.m */; };
+		A48CE0E120B2758500B57512 /* UIImage+LiLCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE0DF20B2758500B57512 /* UIImage+LiLCrop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,12 +56,12 @@
 		A48CE01F20AD853500B57512 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		A48CE02120AD870C00B57512 /* LiLHeaderIconViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiLHeaderIconViewController.h; sourceTree = "<group>"; };
 		A48CE02220AD870C00B57512 /* LiLHeaderIconViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiLHeaderIconViewController.m; sourceTree = "<group>"; };
-		A48CE02620AD8A7000B57512 /* LiLShearImgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiLShearImgViewController.h; sourceTree = "<group>"; };
-		A48CE02720AD8A7000B57512 /* LiLShearImgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiLShearImgViewController.m; sourceTree = "<group>"; };
 		A48CE0CF20AEC84200B57512 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		A48CE0D020AEC84200B57512 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		A48CE0D120AECF8200B57512 /* UIImage+LiLCrop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LiLCrop.h"; sourceTree = "<group>"; };
-		A48CE0D220AECF8200B57512 /* UIImage+LiLCrop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LiLCrop.m"; sourceTree = "<group>"; };
+		A48CE0DC20B2758500B57512 /* LiLShearImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiLShearImgViewController.h; sourceTree = "<group>"; };
+		A48CE0DD20B2758500B57512 /* LiLShearImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiLShearImgViewController.m; sourceTree = "<group>"; };
+		A48CE0DE20B2758500B57512 /* UIImage+LiLCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LiLCrop.h"; sourceTree = "<group>"; };
+		A48CE0DF20B2758500B57512 /* UIImage+LiLCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LiLCrop.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +92,7 @@
 		A48CDFE020AD849800B57512 = {
 			isa = PBXGroup;
 			children = (
+				A48CE0D420B274F300B57512 /* PracticalTools */,
 				A48CDFEB20AD849800B57512 /* LiLSampleTool */,
 				A48CE00420AD849900B57512 /* LiLSampleToolTests */,
 				A48CE00F20AD849900B57512 /* LiLSampleToolUITests */,
@@ -112,7 +113,6 @@
 		A48CDFEB20AD849800B57512 /* LiLSampleTool */ = {
 			isa = PBXGroup;
 			children = (
-				A48CE02420AD8A5200B57512 /* SampleTool */,
 				A48CDFEC20AD849800B57512 /* AppDelegate.h */,
 				A48CDFED20AD849800B57512 /* AppDelegate.m */,
 				A48CDFF220AD849800B57512 /* Main.storyboard */,
@@ -146,21 +146,21 @@
 			path = LiLSampleToolUITests;
 			sourceTree = "<group>";
 		};
-		A48CE02420AD8A5200B57512 /* SampleTool */ = {
+		A48CE0D420B274F300B57512 /* PracticalTools */ = {
 			isa = PBXGroup;
 			children = (
-				A48CE02520AD8A5200B57512 /* shearPicture */,
+				A48CE0D520B2752100B57512 /* shearPicture */,
 			);
-			path = SampleTool;
+			path = PracticalTools;
 			sourceTree = "<group>";
 		};
-		A48CE02520AD8A5200B57512 /* shearPicture */ = {
+		A48CE0D520B2752100B57512 /* shearPicture */ = {
 			isa = PBXGroup;
 			children = (
-				A48CE02620AD8A7000B57512 /* LiLShearImgViewController.h */,
-				A48CE02720AD8A7000B57512 /* LiLShearImgViewController.m */,
-				A48CE0D120AECF8200B57512 /* UIImage+LiLCrop.h */,
-				A48CE0D220AECF8200B57512 /* UIImage+LiLCrop.m */,
+				A48CE0DC20B2758500B57512 /* LiLShearImgViewController.h */,
+				A48CE0DD20B2758500B57512 /* LiLShearImgViewController.m */,
+				A48CE0DE20B2758500B57512 /* UIImage+LiLCrop.h */,
+				A48CE0DF20B2758500B57512 /* UIImage+LiLCrop.m */,
 			);
 			path = shearPicture;
 			sourceTree = "<group>";
@@ -295,11 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48CE0D320AECF8200B57512 /* UIImage+LiLCrop.m in Sources */,
 				A48CDFFC20AD849900B57512 /* main.m in Sources */,
 				A48CE02020AD853500B57512 /* RootViewController.m in Sources */,
 				A48CE02320AD870C00B57512 /* LiLHeaderIconViewController.m in Sources */,
-				A48CE02820AD8A7000B57512 /* LiLShearImgViewController.m in Sources */,
+				A48CE0E120B2758500B57512 /* UIImage+LiLCrop.m in Sources */,
+				A48CE0E020B2758500B57512 /* LiLShearImgViewController.m in Sources */,
 				A48CDFEE20AD849800B57512 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
