@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LiLSampleTool"
-  s.version      = "0.3.1"
+  s.version      = "0.3.3"
   s.summary      = "many practical Tool"
 
   # This description is used to generate tags and improve search results.
