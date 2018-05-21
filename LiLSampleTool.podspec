@@ -90,7 +90,7 @@ DESC
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
 
-  s.source_files = 'LiLSampleTool/LiLSampleTool/SampleTool/**/*'
+  s.source_files = 'PracticalTools/**/*'
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
