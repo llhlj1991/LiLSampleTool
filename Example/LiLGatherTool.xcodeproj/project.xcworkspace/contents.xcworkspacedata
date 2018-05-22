@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LiLSampleTool.xcodeproj">
+      location = "self:/Users/lilei/Desktop/my project/LiLSampleTool/Example/LiLGatherTool.xcodeproj">
    </FileRef>
 </Workspace>

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LiLSampleTool"
-  s.version      = "0.4.3"
+  s.version      = "0.4.6"
   s.summary      = "many practical Tool"
 
   # This description is used to generate tags and improve search results.
@@ -90,7 +90,9 @@ DESC
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
 
-  s.source_files = 'LiLSampleTool/**/*'
+   s.subspec 'ShearPicture' do |shearpicture|
+       shearpicture.source_files = 'LiLSampleTool/ShearPicture/*.{h,m,mm,c}'
+  end
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

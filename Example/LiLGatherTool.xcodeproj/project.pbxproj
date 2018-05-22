@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A48A071620B3FD8D007665C2 /* LiLShearImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48A071220B3FD8D007665C2 /* LiLShearImgViewController.m */; };
+		A48A071720B3FD8D007665C2 /* UIImage+LiLCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = A48A071520B3FD8D007665C2 /* UIImage+LiLCrop.m */; };
 		A48CDFEE20AD849800B57512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CDFED20AD849800B57512 /* AppDelegate.m */; };
 		A48CDFF420AD849800B57512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48CDFF220AD849800B57512 /* Main.storyboard */; };
 		A48CDFF620AD849900B57512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48CDFF520AD849900B57512 /* Assets.xcassets */; };
 		A48CDFF920AD849900B57512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48CDFF720AD849900B57512 /* LaunchScreen.storyboard */; };
 		A48CDFFC20AD849900B57512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CDFFB20AD849900B57512 /* main.m */; };
-		A48CE00620AD849900B57512 /* LiLSampleToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE00520AD849900B57512 /* LiLSampleToolTests.m */; };
-		A48CE01120AD849900B57512 /* LiLSampleToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE01020AD849900B57512 /* LiLSampleToolUITests.m */; };
 		A48CE02020AD853500B57512 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE01F20AD853500B57512 /* RootViewController.m */; };
 		A48CE02320AD870C00B57512 /* LiLHeaderIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE02220AD870C00B57512 /* LiLHeaderIconViewController.m */; };
-		A48CE0F720B2996500B57512 /* LiLShearImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE0F320B2996500B57512 /* LiLShearImgViewController.m */; };
-		A48CE0F820B2996500B57512 /* UIImage+LiLCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = A48CE0F620B2996500B57512 /* UIImage+LiLCrop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A48CDFE920AD849800B57512 /* LiLSampleTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiLSampleTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48A071220B3FD8D007665C2 /* LiLShearImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiLShearImgViewController.m; sourceTree = "<group>"; };
+		A48A071320B3FD8D007665C2 /* UIImage+LiLCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LiLCrop.h"; sourceTree = "<group>"; };
+		A48A071420B3FD8D007665C2 /* LiLShearImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiLShearImgViewController.h; sourceTree = "<group>"; };
+		A48A071520B3FD8D007665C2 /* UIImage+LiLCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LiLCrop.m"; sourceTree = "<group>"; };
+		A48CDFE920AD849800B57512 /* LiLGatherTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiLGatherTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48CDFEC20AD849800B57512 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A48CDFED20AD849800B57512 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A48CDFF320AD849800B57512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,22 +48,15 @@
 		A48CDFF820AD849900B57512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A48CDFFA20AD849900B57512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A48CDFFB20AD849900B57512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A48CE00120AD849900B57512 /* LiLSampleToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiLSampleToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A48CE00520AD849900B57512 /* LiLSampleToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiLSampleToolTests.m; sourceTree = "<group>"; };
+		A48CE00120AD849900B57512 /* LiLGatherToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiLGatherToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48CE00720AD849900B57512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = LiLSampleToolTests/Info.plist; sourceTree = SOURCE_ROOT; };
-		A48CE00C20AD849900B57512 /* LiLSampleToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiLSampleToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A48CE01020AD849900B57512 /* LiLSampleToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiLSampleToolUITests.m; sourceTree = "<group>"; };
-		A48CE01220AD849900B57512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48CE00C20AD849900B57512 /* LiLGatherToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiLGatherToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48CE01E20AD853500B57512 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		A48CE01F20AD853500B57512 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		A48CE02120AD870C00B57512 /* LiLHeaderIconViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiLHeaderIconViewController.h; sourceTree = "<group>"; };
 		A48CE02220AD870C00B57512 /* LiLHeaderIconViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiLHeaderIconViewController.m; sourceTree = "<group>"; };
 		A48CE0CF20AEC84200B57512 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		A48CE0D020AEC84200B57512 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		A48CE0F320B2996500B57512 /* LiLShearImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiLShearImgViewController.m; sourceTree = "<group>"; };
-		A48CE0F420B2996500B57512 /* UIImage+LiLCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LiLCrop.h"; sourceTree = "<group>"; };
-		A48CE0F520B2996500B57512 /* LiLShearImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiLShearImgViewController.h; sourceTree = "<group>"; };
-		A48CE0F620B2996500B57512 /* UIImage+LiLCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LiLCrop.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,13 +84,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A48A071020B3FD8D007665C2 /* LiLSampleTool */ = {
+			isa = PBXGroup;
+			children = (
+				A48A071120B3FD8D007665C2 /* ShearPicture */,
+			);
+			name = LiLSampleTool;
+			path = ../LiLSampleTool;
+			sourceTree = "<group>";
+		};
+		A48A071120B3FD8D007665C2 /* ShearPicture */ = {
+			isa = PBXGroup;
+			children = (
+				A48A071220B3FD8D007665C2 /* LiLShearImgViewController.m */,
+				A48A071320B3FD8D007665C2 /* UIImage+LiLCrop.h */,
+				A48A071420B3FD8D007665C2 /* LiLShearImgViewController.h */,
+				A48A071520B3FD8D007665C2 /* UIImage+LiLCrop.m */,
+			);
+			path = ShearPicture;
+			sourceTree = "<group>";
+		};
 		A48CDFE020AD849800B57512 = {
 			isa = PBXGroup;
 			children = (
-				A48CDFEB20AD849800B57512 /* LiLSampleTool */,
-				A48CE0F120B2996500B57512 /* LiLSampleTool */,
-				A48CE00420AD849900B57512 /* LiLSampleToolTests */,
-				A48CE00F20AD849900B57512 /* LiLSampleToolUITests */,
+				A48A071020B3FD8D007665C2 /* LiLSampleTool */,
+				A48CDFEB20AD849800B57512 /* LiLGatherTool */,
 				A48CDFEA20AD849800B57512 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,14 +116,14 @@
 		A48CDFEA20AD849800B57512 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A48CDFE920AD849800B57512 /* LiLSampleTool.app */,
-				A48CE00120AD849900B57512 /* LiLSampleToolTests.xctest */,
-				A48CE00C20AD849900B57512 /* LiLSampleToolUITests.xctest */,
+				A48CDFE920AD849800B57512 /* LiLGatherTool.app */,
+				A48CE00120AD849900B57512 /* LiLGatherToolTests.xctest */,
+				A48CE00C20AD849900B57512 /* LiLGatherToolUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A48CDFEB20AD849800B57512 /* LiLSampleTool */ = {
+		A48CDFEB20AD849800B57512 /* LiLGatherTool */ = {
 			isa = PBXGroup;
 			children = (
 				A48CDFEC20AD849800B57512 /* AppDelegate.h */,
@@ -126,52 +139,15 @@
 				A48CE02120AD870C00B57512 /* LiLHeaderIconViewController.h */,
 				A48CE02220AD870C00B57512 /* LiLHeaderIconViewController.m */,
 			);
-			path = LiLSampleTool;
-			sourceTree = "<group>";
-		};
-		A48CE00420AD849900B57512 /* LiLSampleToolTests */ = {
-			isa = PBXGroup;
-			children = (
-				A48CE00520AD849900B57512 /* LiLSampleToolTests.m */,
-			);
-			path = LiLSampleToolTests;
-			sourceTree = "<group>";
-		};
-		A48CE00F20AD849900B57512 /* LiLSampleToolUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A48CE01020AD849900B57512 /* LiLSampleToolUITests.m */,
-				A48CE01220AD849900B57512 /* Info.plist */,
-			);
-			path = LiLSampleToolUITests;
-			sourceTree = "<group>";
-		};
-		A48CE0F120B2996500B57512 /* LiLSampleTool */ = {
-			isa = PBXGroup;
-			children = (
-				A48CE0F220B2996500B57512 /* shearPicture */,
-			);
-			name = LiLSampleTool;
-			path = ../LiLSampleTool;
-			sourceTree = "<group>";
-		};
-		A48CE0F220B2996500B57512 /* shearPicture */ = {
-			isa = PBXGroup;
-			children = (
-				A48CE0F320B2996500B57512 /* LiLShearImgViewController.m */,
-				A48CE0F420B2996500B57512 /* UIImage+LiLCrop.h */,
-				A48CE0F520B2996500B57512 /* LiLShearImgViewController.h */,
-				A48CE0F620B2996500B57512 /* UIImage+LiLCrop.m */,
-			);
-			path = shearPicture;
+			path = LiLGatherTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A48CDFE820AD849800B57512 /* LiLSampleTool */ = {
+		A48CDFE820AD849800B57512 /* LiLGatherTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A48CE01520AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLSampleTool" */;
+			buildConfigurationList = A48CE01520AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLGatherTool" */;
 			buildPhases = (
 				A48CDFE520AD849800B57512 /* Sources */,
 				A48CDFE620AD849800B57512 /* Frameworks */,
@@ -181,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = LiLSampleTool;
+			name = LiLGatherTool;
 			productName = LiLSampleTool;
-			productReference = A48CDFE920AD849800B57512 /* LiLSampleTool.app */;
+			productReference = A48CDFE920AD849800B57512 /* LiLGatherTool.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A48CE00020AD849900B57512 /* LiLSampleToolTests */ = {
+		A48CE00020AD849900B57512 /* LiLGatherToolTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A48CE01820AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLSampleToolTests" */;
+			buildConfigurationList = A48CE01820AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLGatherToolTests" */;
 			buildPhases = (
 				A48CDFFD20AD849900B57512 /* Sources */,
 				A48CDFFE20AD849900B57512 /* Frameworks */,
@@ -199,14 +175,14 @@
 			dependencies = (
 				A48CE00320AD849900B57512 /* PBXTargetDependency */,
 			);
-			name = LiLSampleToolTests;
+			name = LiLGatherToolTests;
 			productName = LiLSampleToolTests;
-			productReference = A48CE00120AD849900B57512 /* LiLSampleToolTests.xctest */;
+			productReference = A48CE00120AD849900B57512 /* LiLGatherToolTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A48CE00B20AD849900B57512 /* LiLSampleToolUITests */ = {
+		A48CE00B20AD849900B57512 /* LiLGatherToolUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A48CE01B20AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLSampleToolUITests" */;
+			buildConfigurationList = A48CE01B20AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLGatherToolUITests" */;
 			buildPhases = (
 				A48CE00820AD849900B57512 /* Sources */,
 				A48CE00920AD849900B57512 /* Frameworks */,
@@ -217,9 +193,9 @@
 			dependencies = (
 				A48CE00E20AD849900B57512 /* PBXTargetDependency */,
 			);
-			name = LiLSampleToolUITests;
+			name = LiLGatherToolUITests;
 			productName = LiLSampleToolUITests;
-			productReference = A48CE00C20AD849900B57512 /* LiLSampleToolUITests.xctest */;
+			productReference = A48CE00C20AD849900B57512 /* LiLGatherToolUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A48CDFE420AD849800B57512 /* Build configuration list for PBXProject "LiLSampleTool" */;
+			buildConfigurationList = A48CDFE420AD849800B57512 /* Build configuration list for PBXProject "LiLGatherTool" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -257,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A48CDFE820AD849800B57512 /* LiLSampleTool */,
-				A48CE00020AD849900B57512 /* LiLSampleToolTests */,
-				A48CE00B20AD849900B57512 /* LiLSampleToolUITests */,
+				A48CDFE820AD849800B57512 /* LiLGatherTool */,
+				A48CE00020AD849900B57512 /* LiLGatherToolTests */,
+				A48CE00B20AD849900B57512 /* LiLGatherToolUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,8 +275,8 @@
 				A48CDFFC20AD849900B57512 /* main.m in Sources */,
 				A48CE02020AD853500B57512 /* RootViewController.m in Sources */,
 				A48CE02320AD870C00B57512 /* LiLHeaderIconViewController.m in Sources */,
-				A48CE0F820B2996500B57512 /* UIImage+LiLCrop.m in Sources */,
-				A48CE0F720B2996500B57512 /* LiLShearImgViewController.m in Sources */,
+				A48A071720B3FD8D007665C2 /* UIImage+LiLCrop.m in Sources */,
+				A48A071620B3FD8D007665C2 /* LiLShearImgViewController.m in Sources */,
 				A48CDFEE20AD849800B57512 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48CE00620AD849900B57512 /* LiLSampleToolTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48CE01120AD849900B57512 /* LiLSampleToolUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		A48CE00320AD849900B57512 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A48CDFE820AD849800B57512 /* LiLSampleTool */;
+			target = A48CDFE820AD849800B57512 /* LiLGatherTool */;
 			targetProxy = A48CE00220AD849900B57512 /* PBXContainerItemProxy */;
 		};
 		A48CE00E20AD849900B57512 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A48CDFE820AD849800B57512 /* LiLSampleTool */;
+			target = A48CDFE820AD849800B57512 /* LiLGatherTool */;
 			targetProxy = A48CE00D20AD849900B57512 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,7 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M32355W8F;
-				INFOPLIST_FILE = LiLSampleTool/Info.plist;
+				INFOPLIST_FILE = LiLGatherTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,7 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M32355W8F;
-				INFOPLIST_FILE = LiLSampleTool/Info.plist;
+				INFOPLIST_FILE = LiLGatherTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -518,7 +492,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wajiu.LiLSampleToolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiLSampleTool.app/LiLSampleTool";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiLGatherTool.app/LiLGatherTool";
 			};
 			name = Debug;
 		};
@@ -536,7 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wajiu.LiLSampleToolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiLSampleTool.app/LiLSampleTool";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiLGatherTool.app/LiLGatherTool";
 			};
 			name = Release;
 		};
@@ -577,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A48CDFE420AD849800B57512 /* Build configuration list for PBXProject "LiLSampleTool" */ = {
+		A48CDFE420AD849800B57512 /* Build configuration list for PBXProject "LiLGatherTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A48CE01320AD849900B57512 /* Debug */,
@@ -586,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A48CE01520AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLSampleTool" */ = {
+		A48CE01520AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLGatherTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A48CE01620AD849900B57512 /* Debug */,
@@ -595,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A48CE01820AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLSampleToolTests" */ = {
+		A48CE01820AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLGatherToolTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A48CE01920AD849900B57512 /* Debug */,
@@ -604,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A48CE01B20AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLSampleToolUITests" */ = {
+		A48CE01B20AD849900B57512 /* Build configuration list for PBXNativeTarget "LiLGatherToolUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A48CE01C20AD849900B57512 /* Debug */,
